@@ -102,12 +102,12 @@ class ActiveDiscussionState extends State<ActiveDiscussion> {
                     : 10.0,
                 decoration: BoxDecoration(
                   image: const DecorationImage(
-                    image: ExactAssetImage('assets/images/example.png'),
-                    fit: BoxFit.fitHeight,
+                    image: ExactAssetImage('assets/images/chat.jpg'),
+                    fit: BoxFit.contain,
                   ),
                   borderRadius:
                       BorderRadius.circular(clickedCentreFAB ? 0.0 : 300.0),
-                  color: Color(0xFF81B622),
+                  color: Colors.white,
                 ),
               ),
             )

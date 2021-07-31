@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
+import 'package:temanajar/pages/journey.dart';
 import 'package:temanajar/pages/quiz.dart';
 
 import 'active_discussion.dart';
@@ -94,7 +95,11 @@ class _PeerMainPage extends State<PeerMainPage> {
                               progressColor: Color(0xFFD4AF37),
                             ),
                             trailing: TextButton(
-                              onPressed: () {},
+                              onPressed: () {
+                                Navigator.push(context, MaterialPageRoute(builder: (context) {
+                                  return JourneyPage();
+                                },),);
+                              },
                               child: Text(
                                 "details",
                                 style: GoogleFonts.poppins(
@@ -345,7 +350,7 @@ class _PeerMainPage extends State<PeerMainPage> {
                     onPressed: () {
                       Navigator.push(context, MaterialPageRoute(builder: (context) {
                         return ActiveDiscussion(title);
-                      }));
+                      },),);
                     },
                     style: ElevatedButton.styleFrom(
                       primary: Color(0xFF81B622),

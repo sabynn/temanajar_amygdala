@@ -249,7 +249,7 @@ class _PeerMainPage extends State<PeerMainPage> {
                                         style: GoogleFonts.poppins(
                                           fontWeight: FontWeight.w600,
                                           fontSize: 16,
-                                          color: Color(0xFF3D550C),
+                                          color: Color(0xFF81B622),
                                         ),
                                       ),
                                     );

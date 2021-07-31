@@ -502,28 +502,6 @@ class InstructorMainPage extends StatelessWidget {
             ),
             ListTile(
               title: Text(
-                'Premium Plan',
-                style: GoogleFonts.poppins(
-                  fontSize: 16,
-                  color: Colors.white,
-                ),
-              ),
-              leading: const Icon(
-                Icons.wallet_membership_rounded,
-                color: Colors.white,
-                size: 36.0,
-              ),
-              onTap: () {},
-            ),
-            const Divider(
-              color: Colors.white,
-              height: 10,
-              thickness: 2,
-              indent: 10,
-              endIndent: 10,
-            ),
-            ListTile(
-              title: Text(
                 'Settings',
                 style: GoogleFonts.poppins(
                   fontSize: 16,

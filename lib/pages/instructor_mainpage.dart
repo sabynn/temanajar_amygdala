@@ -23,7 +23,7 @@ class InstructorMainPage extends StatelessWidget {
           Container(
             width: 40,
             child: Image.asset(
-              'assets/images/profile_pic_students.png',
+              'assets/images/profile_pic_instructor.png',
             ),
           ),
         ],

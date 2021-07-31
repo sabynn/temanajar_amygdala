@@ -65,7 +65,7 @@ class JourneyPage extends StatelessWidget {
                                         width:
                                             MediaQuery.of(context).size.height *
                                                 60 /
-                                                160,
+                                                200,
                                         animation: false,
                                         lineHeight: 20.0,
                                         leading: Padding(

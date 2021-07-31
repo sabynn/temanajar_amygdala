@@ -350,25 +350,6 @@ class InstructorMainPage extends StatelessWidget {
     );
   }
 
-  Widget _learningVideos() {
-    return InkWell(
-      onTap: () {},
-      child: Container(
-        height: double.infinity,
-        alignment: Alignment.center,
-        child: ClipRRect(
-          borderRadius: BorderRadius.circular(20.0),
-          child: Image.asset(
-            'assets/images/learning_videos.png',
-            width: 200.0,
-            height: 300.0,
-            fit: BoxFit.fitWidth,
-          ),
-        ),
-      ),
-    );
-  }
-
   Widget _mainMenu(context) {
     return Drawer(
       child: Container(
